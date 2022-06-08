@@ -23,6 +23,7 @@ export default function Home() {
       </Head>
       <h1 className="text-3xl font-bold underline">{locale}</h1>
       <h1>The current theme is: {theme}</h1>
+      <h2>This is my first code in portfolio v3</h2>
       <div className="flex items-center space-x-4">
         <button onClick={() => setTheme("light")}>Light Mode</button>
         <button onClick={() => setTheme("dark")}>Dark Mode</button>
