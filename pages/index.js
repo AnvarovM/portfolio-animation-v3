@@ -8,6 +8,7 @@ import { Navbar, Header } from "../components";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
+  
   const { theme, setTheme } = useTheme();
   const router = useRouter();
   const { locale } = router;
